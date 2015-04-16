@@ -1,0 +1,226 @@
+include _mixins.jade
+
+doctype html
+html(lang="es")
+	head
+		+head("SPS")
+	body
+		.all
+			header.mainHeader
+				+header([['Nosotros', 'nosotros'],['Servicios', 'servicios'], ['Guías de Programas', 'guia-de-programas'], ['Clientes', 'clientes']])
+			
+			#full
+				.section
+					.homeslider
+						ul.slideme
+							li
+								.titulo CAMPAÑAS DE VENTA
+							li
+								.titulo ATENCIÓN PERSONALIZADA
+							li
+								.titulo CALIDAD Y ACERTIVIDAD
+				.section.intern#sNosotros
+					.title Nosotros
+					.container
+						+sidebar
+						.slide
+							.main
+								.text
+									a.nosotrosNext(href="#nosotros/1")
+										img(src="_/img/ico_nosotros.png", alt="")
+									p <strong class="big">S</strong>omos una empresa que brinda diversas soluciones en Centros de Contacto, Consultoría y Capacitación en Ventas y Call Center, ayudamos a nuestros clientes a impulsar el desarrollo de cuentas y a llevar a cabo diferente tipos de campañas, optimizando así los costos ya que nos enfocamos a la investigación y difusión de los servicios que desea ofrecer de su empresa.
+									p SPS  Team cuenta con más  de 30  años  de experiencia en crear  Equipos de Ventas, Call Center y  Manejo especializado en Prospección, Servicio a Clientes y Campañas de Comunicación con un nivel altamente efectivos.
+
+								.mainTitle ¿Qué nos hace diferentes a otras compañías?
+								ul.half
+									li Atención personalizada, Calidad y asertividad
+									li Somos aliados de negocio por que nos comprometemos al logro de los objetivos esperados
+									li Contamos con personal altamente calificado con visión de servicio y comercial
+									li Prospección especializada con seguimiento y reportes
+								ul.half
+									li Difundimos todo tipo de eventos presenciales, virtuales
+									li Comunicación constante con nuestros clientes para conocer el status del proyecto
+									li Sin problema de rotación de personal no contratamos estudiantes ni eventuales
+						.slide
+							article.staff
+								img(src="_/img/nosotros_1.png", alt="").photostaff
+								.stafftitle Juan García S.
+								.description Socio Director de la firma, con una experiencia de más de 30 años, ha sido Consultor, Training Performance Consultant,  Trainer, Master Trainer, Solution Arquitect,  Director Comercial en México y Latinoamérica de firmas como O. Clúa y Asociados, Xerox, Co. México, Achieve Global, franquicia en México. Su especialidad está enfocada al desarrollo del recurso humano en las áreas de Ventas, Liderazgo y Coaching; así como Servicio al CLIENTE.
+							article.staff
+								img(src="_/img/nosotros_2.png", alt="").photostaff
+								.stafftitle José Luis Pérez S.
+								.description Socio Consultor de la firma, con una experiencia de más de 40 años, ha trabajado como ejecutivo, en firmas como Xerox Co. México, AchieveGlobal, franquicia en México y Consultor Independiente, atendiendo  áreas como: Recursos Humanos, Administración de clientes, implementación de la Estrategia de Liderazgo a través de Calidad, programas de mejora de negocios en áreas de Ventas.
+						.slide
+							article.staff
+								img(src="_/img/nosotros_3.png", alt="").photostaff
+								.stafftitle Eduardo Torres
+								.description Socio Director de la firma, ha trabajado como Director General en diversas empresas,  y en los últimos 10 años, ha sido, miembro del Consejo de Administración por 5 años y los otros 5 años Director General de Achieve Global en México y Centro América, empresa Global, dedicada a la Consultoría y Capacitación, en las áreas de Ventas, Liderazgo y Servicio a Clientes.
+							article.staff
+								img(src="_/img/nosotros_4.png", alt="").photostaff
+								.stafftitle Rodrigo Vellido M.
+								.description Socio Director de Call Center, Con una experiencia de 15 años en el área de Telemarketing, ha trabajado como Gerente de Telemarketing  en Achieve Global, Capital Logistics y Telcel con el objetivo de generar nuevos negocios por medio de la planeación, investigación, prospección y servicio, contribuyendo de esta forma al logro de los resultados en la organización. 
+
+				.section.intern#sServicios
+					.title Servicios
+					.container
+						+sidebar
+						.slide(data-anchor="assessment-center")
+							.main
+								.mainTitle.dark ASSESSMENT CENTER
+								.text.scrollable
+									p: strong VENTAS:
+									p Antes de elegir un programa de entrenamiento para su grupo de Vendedores, Gerentes de Ventas o Representantes de atención y venta a clientes, es muy conveniente aplicar algunas herramientas de diagnóstico para identificar su desempeño actual vs. Un desempeño deseado.
+									p: strong EJEMPLOS: 
+									p Diagnóstico (Test`s  de ventas), Salidas a campo con vendedores, análisis de procesos de ventas y/o áreas de soporte, etc.
+									p Durante. En base a los resultados del diagnóstico, identificar y realizar el programa de entrenamiento más adecuado para desarrollar las habilidades que se tengan que reforzar (Brecha entre el Edo Actual y el Edo deseado), con mediciones de Reacción y Aprendizaje.
+									p Después de ejecutado el entrenamiento, realizar actividades de seguimiento, tales como: TesÕs de ventas post-entrenamiento, Salidas a campo Post-entrenamiento, sesiones de reforzamiento de las habilidades aprendidas, monitoreo de su aplicación en el lugar de trabajo, con mediciones de Aplicación y Resultado.  Este mismo proceso se puede llevar a cabo para las funciones de Administración y Servicio, realizando diagnósticos de Habilidades/competencias gerenciales, identificando el nivel de cultura de servicio individual y de grupo en una organización, u observando el comportamiento del personal que atiende el teléfono, y así sucesivamente; establecer un programa de entrenamiento y su seguimiento hasta lograr el resultado deseado.  
+									p Diferentes herramientas para diagnosticar el desempeño del  personal en una organización (Vendedores, Gerentes, Representantes Call Center, Ejecutivos de área….etc.)
+									p ¿Cuál es la importancia de la medición?
+									p Una de las grandes preocupaciones de los Gerentes de Capacitación  y en especial  de los responsables de la gestión humana en las organizaciones es precisamente el poder ofrecer programas de capacitación que garanticen el mejoramiento del desempeño  y la productividad en la organización.
+									p En general se busca, después de un análisis y diagnóstico de necesidades de capacitación, que los programas, seminarios y talleres definidos garanticen procesos de aprendizaje que permitan mejorar el desempeño cotidiano  en el puesto de trabajo y al mismo tiempo permitan incrementar las habilidades en cada una de las personas que asisten a los eventos de capacitación.
+									p En este sentido, es importante tener en cuenta los 4 pasos orientados a cerrar el ciclo de la capacitación, (Reacción, Aprendizaje, Aplicación y Resultado), los cuales permiten visualizar el desarrollo de un programa de capacitación que tiene comienzo y fin.  
+						.slide(data-anchor="performance")
+							.main
+								.mainTitle.dark PERFORMANCE
+								.text.tocenter.scrollable
+									p A través de una serie de talleres, simulaciones y herramientas basadas en las mejores prácticas desarrollamos a sus líderes y personal que les reporta a lograr los mejores resultados de negocio.
+
+						.slide(data-anchor="service")
+							.main
+								.mainTitle.dark SERVICE
+								.text.tocenter.scrollable
+									p El Servicio de Excelencia. Desarrollamos el lado humano y los principios del servicio de su organización para asegurar que cada empleado entienda los conceptos, tácticas y valor agregado que su empresa ofrece para crear una experiencia excepcional con sus clientes. 
+
+						.slide(data-anchor="coaching")
+							.main
+								.mainTitle.dark COACHING
+								.text.scrollable
+									p La necesidad de líderes con talento en todos los niveles de la organización aumenta con la velocidad del entorno de negocios hoy en día. NUESTROS COACHES con una amplia experiencia práctica, herramientas y técnicas de coaching, ayudan a las organizaciones a que sus líderes estén equipados para lograr un máximo rendimiento.
+									p: strong ¿Qué es el Coaching?
+									p El Coaching más que un término de moda es una herramienta que ayuda a sacar lo más positivo de las personas. Esta herramienta bien utilizada da resultados maravillosos en las personas y en las organizaciones.  Con el coaching se encuentra un sentido y propósito. Es muy eficaz para descubrir auténticos valores y la claridad mental para optimizar el desempeño laboral.
+									p Un Ejecutivo que tiene personal a su cargo, va a obtener mucho más de su equipo de trabajo, a través del coaching, que con la forma tradicional de dirigirlos a través de las instrucciones y las órdenes directas.
+									p Formación en Coaching. (Grupal)Si bien es importante para un grupo de Ejecutivos que desea mejorar su liderazgo familiarizarse con los fundamentos y herramientas del coaching, tales como: La Observación,  Aprender saber y poder, modelos mentales, metamarcos y re-encuadres, programación neurolingüística…. Etc. 
+									p Nuestro Grupo de Consultores  puede proporcionarle seminarios modulares referentes a estos temas para expandir su capacidad de acción, transformación y aprendizaje tanto en lo individual como en lo colectivo. Opciones: Módulos Básicos de 4:00Hrs cada sesión.Sesiones de Coaching (Individual)
+									p Pero también, para lograr una transformación de la persona, proporcionar sesiones individuales de coaching, donde mediante la aplicación de técnicas y herramientas del Coach, se lleva a cabo un proceso de cambio para lograr la meta establecida, trabajando cada reunión con metas parciales hasta obtener el logro de la meta fijada. (Características: específica, medible, acordada, realista y con un tiempo definido). 
+									p ¿Qué tipo de problemas se pueden abordar en las sesiones de coaching? Ejemplo: Problemas existentes de Planificación, de resolución de problemas, de análisis, de adquisición de habilidades, etc. Pero también cómo ofrecer feedback a sus equipos, cómo manejar los sistemas de evaluación, cómo crear un ambiente de motivación de alto desempeño, etc. 
+									p Sesiones sugeridas: Por persona 4-6 sesiones de 60-90min cada una. En conclusión: 
+									p El coaching es una habilidad que todas las personas que dirigen a otras deberían adquirir. Es una habilidad organizacional que propicia el crecimiento de las personas, incrementa el nivel de productividad y el logro de resultados.
+						.slide(data-anchor="sales-counseling")
+							.main
+								.mainTitle.dark SALES COUNSELING
+								.text.scrollable.tocenter
+									p Consultorio de Ventas, análisis, ayuda, y soporte a la actividad de los Vendedores.  
+						.slide(data-anchor="call-center")
+							.main
+								.mainTitle.dark CALL CENTER
+								.text.scrollable.tocenter
+									a(href="#servicios/call-center-telemarketing"): img(src="_/img/callcenter_telemarketing.png", alt="")
+									a(href="#servicios/call-center-personal"): img(src="_/img/callcenter_personal.png", alt="")
+									a(href="#servicios/call-center-saving"): img(src="_/img/callcenter_saving.png", alt="")
+								.naviBtns.toright
+						.slide(data-anchor="call-center-telemarketing")
+							.main
+								.mainTitle.dark CALL CENTER
+								.text.scrollable.tocenter
+									img(src="_/img/callcenter1.png", alt="").w100p
+								.naviBtns.toright
+									a(href="#servicios/call-center") Regresar
+						.slide(data-anchor="call-center-personal")
+							.main
+								.mainTitle.dark CALL CENTER
+								.text.scrollable.tocenter
+									img(src="_/img/callcenter2.png", alt="").w100p
+								.naviBtns.toright
+									a(href="#servicios/call-center") Regresar
+						.slide(data-anchor="call-center-saving")
+							.main
+								.mainTitle.dark CALL CENTER
+								.text.scrollable.tocenter
+									img(src="_/img/callcenter3.png", alt="").w100p
+								.naviBtns.toright
+									a(href="#servicios/call-center") Regresar
+						.slide(data-anchor="marketing-merchandising")
+							.main
+								.mainTitle.dark MARKETING / MERCHANDISING
+								.text.scrollable.tocenter
+									p Marketing | Merchandising
+
+
+				.section.intern#sGuiaDeProgramas 
+					.title Guía de programas
+					.container
+						+sidebarGuia
+						.slide
+							.main
+								.mainTitle.dark ¿QUIÉN ES SPS TEAM?
+								.text.scrollable
+									p SPS team es el resultado del trabajo de equipo de 9 consultores que han trabajado en México y Latinoamérica con las empresas de mayor reconocimiento a nivel mundial, dedicadas a ofrecerle formación, desarrollo y consultoría.
+
+									p Ayudamos a las organizaciones a alcanzar los objetivos de negocios en Ventas y Comercialización mediante soluciones para su desempeño superior en ventas, relaciones efectivas de lealtad y compromiso con sus clientes, desarrollo organizacional en liderazgo y trabajo en equipo. 
+
+									p Somos un recurso integral con una meta: ¡ayudarle a alcanzar sus resultados!
+									
+									ul
+										li ¿Necesita alcanzar los resultados de negocio y lo más pronto posible?
+										li ¿ Se encuentra ante un ambiente complejo y competitivo?
+										li ¿Requiere ganar la lealtad de los Clientes a través del valor agregado?
+										li ¿Necesita que cada vez más individuos y equipos tomen decisiones, considerando al cliente?
+										li ¿No sólo su participación de mercado, sino también el número de Clientes; es crítico para su empresa?
+										li Entre en contacto con nosotros, tenemos los recursos y la experiencia para ayudarlo a convertir su estrategia en acciones y su misión en realidad.
+
+									p: strong ¿Y CÓMO LO HACEMOS?
+
+									p Es simple, trabajamos en conjunto con usted para trasladar sus estrategias organizacionales en iniciativas reales y desarrollar iniciativas a través de nuestras Herramientas. Además maximizamos el impacto de su capacitación, asegurándole que lo enseñado se refleja directamente en sus objetivos organizacionales.
+									
+									p Podemos ser sus socios en cada paso del proceso:
+									ul
+										li A.Manteniendo en claro hacia dónde se dirige su empresa y por qué.
+										li B. Manteniendo su total atención en los clientes, tomando en cuenta sus experiencias con su organización.
+										li C. Construyendo el compromiso y la competencia necesaria en sus empleados con relación a la comprensión que ellos tienen de su misión.
+										li D. Establecer los sistemas necesarios para hacer realidad sus Resultados
+						
+						
+						- var programas = [ ['desarrollando-excelencia-comercial', 'Desarrollando Excelencia Comercial I y II', 'El programa Desarrollando la Excelencia Comercial le ayudará a desarrollar Técnicas profesionales para manejar el proceso de ventas y a su vez Habilidades en el vendedor para que este trabaje de una manera más profesional y efectiva cualquier situación de ventas con los clientes. <br> <br> Manejando adecuadamente una técnica el vendedor se volverá más productivo y también podrá enfrentar más adecuadamente cualquier actitud, pretexto u objeción por parte del cliente.', '2 1/2 días' ], ['desarrollo-oportunidades-negocio', 'Desarrollo de Oportunidades de Negocio (Prospecting)', 'Esta sesión le ofrece un enfoque estructurado y un conjunto de técnicas que le permitan realizar una búsqueda de oportunidades de negocio más efectivas, encontrando más prospectos para su negocio.', '1 día' ], ['coaching-gerentes-ventas', 'Coaching para Gerentes de Ventas', 'Coaching para Gerentes de VentasProporciona a los gerentes de ventas el sistema de 9 áreas para diagnosticar y planificar sus acciones de Coaching, además de habilidades de comunicación y las herramientas de planeación necesarias para formar y mantener un equipo de ventas superior.', '1 1/2 días'], ['taller-ventas-estrategicas', 'Taller de Ventas Estratégicas (Account Strategic Tools)', 'Los vendedores de hoy participan en un juego en donde también se ganan ventas siendo más estratégicos, planear el acercamiento a cuentas importantes se está volviendo cada día más relevante. Este programa le dará las bases para hacer un Mapeo que le brindará información valiosa para obtener resultados y administar mejor los recursos en sus cuentas importantes.', '1 1/2 días'], ['negocias-vs-vender', 'Negociar vs. Vender', 'Que los ejecutivos de ventas obtengan un marco de trabajo conceptual para lograr acuerdos de venta que sean satisfactorios para ambas partes. Comprendiendo la diferencia entre una negociación y una venta así como los elementos de una negociación exitosa.', '1 1/2 días'], ['administracion-tiempo-ventas', 'Administración del Tiempo en Ventas (Time Management)', 'Administración del Tiempo e n V e n t a s ofrece una gran variedad de técnicas de planeación y administración de las actividades comerciales. Dichas técnicas están diseñadas para fomentar en su fuerza de ventas un manejo más consciente y más productivo del tiempo; a través de diversas herramientas de Planeación útiles tanto para el vendedor como para el gerente de Ventas.', '1 1/2 días'], ['atencion-ventas-telefonicas', 'Atención y Ventas Telefónicas (Teleselling Skills – Outbound)', 'Dirigido a representantes al teléfono y vendedores que quieran aprender técnicas efectivas para prospectar y vender a clientes por teléfono.', '1 1/2 días'], ['customer-satisfaction-service-skills', 'Customer Satisfaction Service Skills (4 módulos)', 'El propósito de este módulo es revisar las herramientas para encontrar maneras de tener a los clientes altamente satifechos.', '4 horas'], ['servicio-excelencia', 'Servicio de Excelencia', 'El propósito de este módulo es explorar el valor de un servicio de excelencia y su beneficio al lograrlo.', '4 horas'], ['clientes-cuidados', 'Los Clientes y sus Cuidados', 'El propósito de este módulo es ayudar a las personas que proveen un servicio a desarrollar habilidades para dar un servicio amable que demuestre interés y cuidado en los clientes desde el nivel humano.', '4 horas'], ['manejo-insatisfaccion-cliente', 'Manejo de la Insatisfacción del Cliente', '-', '-'], ['servicio-extraordinario', 'Servicio Extraordinario', 'El propósito de este módulo es revisar las herramientas para encontrar maneras de tener a los clientes altamente satifechos.', '4 horas'], ['servicio-que-vende', 'Servicio que Vende', 'El propósito de este módulo es que usted adquiera habilidades para conducir entrevistas con los clientes en dónde el servicio “venda”.', '4 horas' ], ['etiqueta-telefonica', 'Etiqueta Telefónica (Inbound-Outbound)', 'El propósito de este módulo es que usted adquiera habilidades para atender a los clientes por teléfono, e-mail, y medios a distancia de manera impecable y con un excelente servicio.', '4 horas'], ['obtener-resultados', 'Obtener Resultados a través de la Gente', 'Obtener Resultados a través de la GenteTM es un programa de 8 horas que analiza diferentes conceptos para ayudar a la gerencia media y a altos directivos a la construcción de compromiso y esfuerzo enfocado en todos los niveles organizacionales. Los participantes aprenden a tratar asuntos de negocios complejos, implementar directrices de un liderazgo de alto nivel y satisfacer las necesidades humanas y operacionales de los colaboradores y empleados de la empresa.', '8 horas'], ['principios-trabajo-equipo', 'Los Principios de Trabajo en Equipo', 'El propósito de este programa es ayudar a los participantes a lograr resultados en su organización trabajando de una manera más efectiva con la gente al aplicar principios de convivencia en el trabajo probados para mejorar la comunicación y el desempeño general.', '4 horas'], ['proporcionar-retroalimentacion', 'Proporcionar Retroalimentación', 'El propósito de este módulo es proveer a los participantes con las habilidades necesarias para permitirle proporcionar retroalimentación constructiva, de tal manera que se construya apertura, se mantenga un espíritu de respeto mutuo y se promueva la solución de problemas así como el deseo de aprendizaje.', '4 horas'], ['principios-coaching', 'Principios de Coaching', 'El propósito de este módulo es proporcionar a los participantes los principios básicos para implementar Coaching a las personas, y de esta manera, ayudarlas a expandir sus capacidades para que se sientan seguras al tomar nuevos retos, tomar decisiones y trabajar de manera independiente.', '4 horas'], ['saber-otorgar-reconocimiento', 'Saber Otorgar Reconocimiento', 'El propósito de este módulo es equipar a los participantes con las habilidades para proporcionar reconocimiento efectivo y reforzar comportamientos con la gente, creando un ambiente de trabajo más favorable.', '4 horas'], ['habilidades-escucha-activa', 'Habilidades de Escucha Activa', 'El propósito de este módulo es afinar en los participantes sus habilidades de escucha y proporcionar técnicas efectivas a fin de que puedan obtener la información que necesitan en forma rápida para lograr mejorar sus resultados y al mismo tiempo mantener relaciones constructivas con los demás.', '4 horas'], ['comunicacion-siglo-xxi', 'Comunicación en el siglo XXI', 'El propósito de este módulo es proporcionar a los participantes las últimas técnicas y estrategias de comunicación para que logren resultados de negocios exitosos.', '4 horas'], ['analisis-problemas-toma-decisiones', 'Análisis de Problemas y Toma de Decisiones', 'El propósito de este programa es proporcionarle las habilidades, estrategias y herramientas para resolver problemas en equipos de trabajo.', '2 días'], ['habilidades-gerenciales-basicas', 'Habilidades Gerenciales Básicas', 'Revisar y enseñar a las gerentes las técnicas y habilidades primordiales para realizar bien cualquier labor de jefatura. (softskills)', '2 días'], ['taller-tqm', 'Taller: TQM Principios y Utilidad', 'Revisar y enseñar a los gerentes los principios y utilidad de las habilidades primordiales de TQM y la aplicación de técnicas, herramientas y costos de calidad en el trabajo.', '1 día'] ]
+						
+						
+					each pr in programas
+						.slide(data-anchor=pr[0])
+							.main
+								.mainTitle.dark=pr[1]
+								.text.scrollable
+									p:strong Objetivo:
+									p=pr[2]
+									p:strong Duración:
+										span=pr[3]
+					.slide(data-anchor="programas-nuevos")
+							.main
+								.mainTitle.dark Programas Nuevos
+								.text.scrollable
+									table
+										thead
+											tr
+												th
+												th Duración
+										tbody
+											tr
+												td PNL en las Ventas
+												td 8 horas
+											tr
+												td Inteligencia Emocional
+												td 4 horas
+											tr
+												td Prioridades y Nuevos Protocolos de Trabajo
+												td 4 / 8 horas
+
+						
+						
+
+				.section.intern#sClientes
+					.title Clientes
+					.main
+						.mainTitle Experiencias con clientes
+				.section.intern#sContacto
+					.title Contacto
+			
+			
+		+scripts(['_libs/jquery.js', '_libs/fullPage.js', '_libs/slideme2.js', '_libs/p-scrollbar.js', '_script.js'])

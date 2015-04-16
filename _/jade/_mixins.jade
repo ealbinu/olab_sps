@@ -1,0 +1,82 @@
+mixin head(titleText)
+	meta(charset="utf-8")
+	title=titleText
+	meta(name="description" content="")
+	meta(name="viewport" content="width=device-width, initial-scale=1")
+	link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Muli:300,400")
+	link(rel="stylesheet", href="_/css/_style.css")
+
+
+mixin header(navigation)
+	#header
+		a.logotype(href="#home")
+		.name Strategic Problems Solutions
+		.header_contact
+			.icon
+			.info
+				p Tels. (55) 6723.0952 | 2621.3642
+				p: a(href="mailto:contacto@spsteam.com.mx") contacto@spsteam.com.mx
+	nav.mainNav
+		ul
+			- each nav in navigation
+				li(data-menuanchor=nav[1]): a(href="##{nav[1]}", class=nav[2])=nav[0]
+
+
+mixin scripts(scr)
+	- each sc in scr
+		script(src="_/js/#{sc}")
+
+mixin footer
+	#footer
+
+mixin sidebar
+	sidebar
+		.sideContent
+			ul
+				li: a(href="#servicios/assessment-center") ASSESSMENT CENTER
+				li: a(href="#servicios/performance") PERFORMANCE
+				li: a(href="#servicios/service") SERVICE
+				li: a(href="#servicios/coaching") COACHING
+				li: a(href="#servicios/sales-counseling") SALES COUNSELING
+				li: a(href="#servicios/call-center") CALL CENTER
+				li: a(href="#servicios/marketing-merchandising") MARKETING / MERCHANDISING
+
+mixin sidebarGuia
+	sidebar.sidebarguia
+		.sideContent
+			ul
+				li
+					a(href="#").opener VENTAS
+					ul
+						li: a(href="#guia-de-programas/desarrollando-excelencia-comercial") Desarrollando la Excelencia Comercial I y II (Professional Sales) 
+						li: a(href="#guia-de-programas/desarrollo-oportunidades-negocio") Desarrollo de Oportunidades de Negocio (Prospecting)
+						li: a(href="#guia-de-programas/coaching-gerentes-ventas") Coaching para Gerentes de Ventas
+						li: a(href="#guia-de-programas/taller-ventas-estrategicas") Taller de Ventas Estratégicas (Account Strategic Tools)
+						li: a(href="#guia-de-programas/negocias-vs-vender") Negociar vs. Vender
+						li: a(href="#guia-de-programas/administracion-tiempo-ventas") Administración del Tiempo en Ventas (Time Management) 
+						li: a(href="#guia-de-programas/atencion-ventas-telefonicas") Atención y Ventas Telefónicas (Teleselling Skills – Outbound)
+				li
+					a(href="#").opener SERVICIO EXTRAORDINARIO
+					ul
+						li: a(href="#guia-de-programas/customer-satisfaction-service-skills") Customer Satisfaction Service Skills (4 módulos)
+						li: a(href="#guia-de-programas/servicio-excelencia") Servicio de Excelencia
+						li: a(href="#guia-de-programas/clientes-cuidados") Los Clientes y sus Cuidados
+						li: a(href="#guia-de-programas/manejo-insatisfaccion-cliente") Manejo de la Insatisfacción del Cliente
+						li: a(href="#guia-de-programas/servicio-extraordinario") Servicio Extraordinario
+						li: a(href="#guia-de-programas/servicio-que-vende") Servicio que Vende
+						li: a(href="#guia-de-programas/etiqueta-telefonica") Etiqueta Telefónica (Inbound-Outbound)
+				li
+					a(href="#").opener DESARROLLO ORGANIZACIONAL
+					ul
+						li: a(href="#guia-de-programas/obtener-resultados") Obtener Resultados a través de la Gente
+						li: a(href="#guia-de-programas/principios-trabajo-equipo") Los Principios de Trabajo en Equipo
+						li: a(href="#guia-de-programas/proporcionar-retroalimentacion") Proporcionar Retroalimentación
+						li: a(href="#guia-de-programas/principios-coaching") Principios de Coaching
+						li: a(href="#guia-de-programas/saber-otorgar-reconocimiento") Saber Otorgar Reconocimiento
+						li: a(href="#guia-de-programas/habilidades-escucha-activa") Habilidades de Escucha Activa
+						li: a(href="#guia-de-programas/comunicacion-siglo-xxi") Comunicación en el siglo XXI
+						li: a(href="#guia-de-programas/analisis-problemas-toma-decisiones") Análisis de Problemas y Toma de Decisiones
+						li: a(href="#guia-de-programas/habilidades-gerenciales-basicas") Habilidades Gerenciales Básicas
+						li: a(href="#guia-de-programas/taller-tqm") Taller: TQM Principios y Utilidad
+				li
+					a(href="#guia-de-programas/programas-nuevos").closer PROGRAMAS NUEVOS
